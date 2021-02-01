@@ -7,12 +7,15 @@
 
 - link:
     ~/.gitconfig: .gitconfig
-    ~/.bashrc: .bashrc
+    ~/.bashrc: 
+      path: .bashrc
+      force: true
     ~/.config/fish/config.fish: .config/fish/config.fish
     ~/.config/htop/htoprc: .config/htop/htoprc
     ~/.config/omf/: 
       glob: true
       path: .config/omf/*
+    ~/.ssh/config: .ssh/config
 
 
 - create:
