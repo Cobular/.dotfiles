@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: .gitconfig
+    ~/.bashrc: .bashrc
+    ~/.config/fish/config.fish: .config/fish/config.fish
+    ~/.config/htop/htoprc: .config/htop/htoprc
+    ~/.config/omf/: 
+      glob: true
+      path: .config/omf/*
+
+
+- create:
+    - ~/downloads
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
