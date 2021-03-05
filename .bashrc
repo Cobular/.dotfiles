@@ -123,3 +123,7 @@ sshd_status=$(service ssh status)
 if [[ $sshd_status = *"is not running"* ]]; then
   sudo service ssh --full-restart
 fi
+
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+echo xfce4-session > ~/.xsession
+

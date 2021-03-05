@@ -6,7 +6,9 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: .gitconfig
+    ~/.gitconfig:
+      path: .gitconfig
+      force: true
     ~/.bashrc: 
       path: .bashrc
       force: true
