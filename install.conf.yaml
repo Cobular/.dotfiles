@@ -16,6 +16,9 @@
       glob: true
       path: .config/omf/*
     ~/.ssh/config: .ssh/config
+    ~/rclone-backup: 
+      glob: true
+      path: rclone-backup/rclone-backup*
 
 
 - create:

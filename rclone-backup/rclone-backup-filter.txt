@@ -1,0 +1,24 @@
++ /var/cache/debconf/**
++ /var/spool/cron/crontabs/**
+
+- /var/lib/docker/**
+- /var/log/**
+- /var/snap/**
+- /var/cache/**
+- /var/lock/**
+- /var/run/**
+- /var/spool/**
+- /opt/nomad/home-assistant/home-assistant_v2.db
+- /home/cobular/.nuget/**
+- /home/cobular/.local/share/NuGet/**
+- /home/cobular/.vscode-server/**
+- **/node-modules/**
+- /opt/nomad/elasticsearch/nodes/**
+
++ /var/**
++ /home/**
++ /etc/**
++ /opt/**
++ /usr/local/**
+
+- *
