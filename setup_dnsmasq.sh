@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo apt-get install -yq dnsmasq
+
+sudo systemctl stop systemd-resolved.service
 sudo systemctl disable systemd-resolved.service
 
 sudo rm /etc/resolv.conf
