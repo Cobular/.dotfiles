@@ -14,6 +14,15 @@
 - /home/cobular/.vscode-server/**
 - **/node-modules/**
 - /opt/nomad/elasticsearch/nodes/**
+- /opt/nomad/home-assistant/home-assistant.log
+- /opt/nomad/podsync/vinwiki/**
+- /var/lib/containerd/io.containerd.runtime.v1.linux/moby/**
+- ⁄var/lib/samba/private/msg.sock/**
+- /etc/systemd/system/timers.target.wants/**
+- /home/cobular/rclone-backup/rclone-log-*
+- /opt/nomad/mysql/mysql.sock
+- /var/lib/tailscale/tailscaled.log*
+- /opt/nomad/postgres/pg_stat_tmp/**
 
 + /var/**
 + /home/**
