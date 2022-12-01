@@ -23,6 +23,19 @@
 - /opt/nomad/mysql/mysql.sock
 - /var/lib/tailscale/tailscaled.log*
 - /opt/nomad/postgres/pg_stat_tmp/**
+- /var/lib/apt/lists/**
+- /var/lib/apt/lists
+- /var/lib/redis/dump.rdb
+- /var/lib/snapd/snaps/**
+- /var/lib/snapd/snaps/*
+- /var/lib/snapd/snaps
+- /opt/nomad/ghost/logs/**
+- /opt/nomad/ghost/logs/*
+- /opt/nomad/ghost/logs
+- /var/lib/systemd/timers/*
+- /opt/nomad/influx/engine/data/a2ab84c3cdc34601/autogen/**/*
+- /var/lib/samba/private/msg.sock/*
+- /opt/nomad/influx/engine/**/*
 
 + /var/**
 + /home/**
